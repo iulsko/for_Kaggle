@@ -1,0 +1,6 @@
+Eat-out 30.80
+Groceries 60.63
+Campus 10.00
+Other 100.30
+Other 2.00
+Beauty 20.09

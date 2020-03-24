@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Finances</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="page-title">My Finances Analysis</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Goals</h2>
+        <ul>
+          <li>Practice my HTML-skills</li>
+          <li>Visualize information about my monthly spending</li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="explanation">How I track my monthly spending</h2>
+        <p>
+          Every month I create a new Notes file on my phone where I write down everything I have spent money on. If it's in the 'Other' category I usually right a short description for it. So, currently I have these categories:
+          <ul>
+            <li>Groceries</li>
+            <li>Clothes</li>
+            <li>Beauty <i>(moisturizer, body cream, nail polish etc.)</i></li>
+            <li>Eating Out <i>(at work, on campus, with friends)</i></li>
+            <li>Other</li>
+          </ul>
+          I have created a Jupyter Notebook, where I have written a simple code to plot a pie-chart of my expenses <i>(since my rent and insurance has been the same for over 3 months, I just add it to my expenses directly in the Notebook)</i>. I also visualize how my total spending is developing over time with a bar chart.
+        </p>
+      </section>
+      <section>
+        <h2>Results</h2>
+        <p>Now, I am not going to upload the real charts here. After all, no one needs to know how much I spend on moisturizer and sunscreen. So, these graphs were done using dummy numbers.</p>
+        <div class="images-container">
+          <div class = "img-singleline">
+            <img src="fig_October.svg" style="width:100%">
+            <div class="caption">October 2019</div>
+          </div>
+          <div class = "img-singleline">
+            <img src="fig_November.svg" style="width:100%"> 
+            <div class="caption">November 2019</div>
+          </div>
+          <div class = "img-singleline">
+            <img src="fig_December.svg" style="width:100%"> 
+            <div class="caption">December 2019</div>
+          </div>
+        </div>
+        <p>In the bar chart below I see that in October I spent way too much money <i>(and that's because I was moving cities)</i>.</p>
+        <div>
+          <div> 
+            <img align= "middle" src="bar_chart.svg"> 
+          </div>
+        </div>    
+      </section>
+    </main>
+  </body>
+</html>

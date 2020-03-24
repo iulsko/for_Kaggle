@@ -1,0 +1,3 @@
+Groceries 100.00
+Eat-out 70.00
+Other 35.60

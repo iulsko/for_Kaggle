@@ -1,0 +1,5 @@
+Eat-out 90.00
+Groceries 80.89
+Other 90.99
+Home 81.85 (Muji)
+Beauty 13.40
